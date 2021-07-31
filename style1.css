@@ -1,27 +1,55 @@
-*{
-	margin:0;
-	background-color:#231f20;
-}
+*{margin:0;}
 
 .header{
-	background-color:white;
-	width: 100%;
-	height: 100%;
-
+	background-color:#000000;
+	padding: 0.5em;
 }
-
 .header h1{
 	font-family:Sofia;
 	font-size:5em;
 	text-align:center;
 	font-weight:bold; 
 	color:#ffffff;
-	background-color:#231f20;
-	padding: 1em;
-	margin: 1em;
-	border: 0.5em solid lightsteelblue;
+	background-color:#114C82;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+.articulos{
+	display: inline-flex;
+	width: 60%;
+	height: 20em;
+	padding: 0.5em;
+}
+.articulos article a{
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	margin-left:0.5em;
+}
+
+.repositorios{
+	display: inline-flex;
+	width: 35%;
+	height: 20em;
+	padding: 0.5em;
+	border-left: 0.5em solid #083E66;
+}
+.repositorios label{
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+.repositorios a img{
+	display: block;
+	width: 5em;
+	height: 5em;
 }
 
 
-
-
+/*
+#6CA9EA
+#3E77BF
+#114C82
+#083E66
+*/
