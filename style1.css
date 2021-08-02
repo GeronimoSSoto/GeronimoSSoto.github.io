@@ -23,10 +23,15 @@
 }
 .articulos article a{
 	text-decoration: none;
+	color: black;
 	font-size: 2em;
 	font-weight: bold;
 	margin-left:0.5em;
 }
+.articulos article a:hover{
+	background-color: #6CA9EA;
+}
+
 
 .repositorios{
 	display: inline-flex;
@@ -46,8 +51,19 @@
 	height: 5em;
 }
 
+#circulo {
+  width: 150px;
+  background: white;
+  border-radius: 100px;
+}
+#circulo p{
+	font-size: 3em;
+	text-align: center;
+	color: #3E77BF;
+}
 
 /*
+--COLORES CELESTES--
 #6CA9EA
 #3E77BF
 #114C82
