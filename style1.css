@@ -1,5 +1,22 @@
 *{margin:0;}
 
+/*---ESTILOS DE APLICACION GENERAL O PRUEBAS---*/
+
+/*	COLORES CELESTES
+        CLARO
+#D6EAFF
+#6CA9EA
+#3E77BF
+#114C82
+#083E66
+				OSCURO
+*/
+
+body{
+	background-color:#D6EAFF;
+}
+
+/*---ENCABEZADO---*/
 .header{
 	background-color:#000000;
 	padding: 0.5em;
@@ -14,43 +31,6 @@
 	padding: 0.5em;
 	margin: 0.5em;
 }
-
-.articulos{
-	display: inline-flex;
-	width: 60%;
-	height: 20em;
-	padding: 0.5em;
-}
-.articulos article a{
-	text-decoration: none;
-	color: black;
-	font-size: 2em;
-	font-weight: bold;
-	margin-left:0.5em;
-}
-.articulos article a:hover{
-	background-color: #6CA9EA;
-}
-
-
-.repositorios{
-	display: inline-flex;
-	width: 35%;
-	height: 20em;
-	padding: 0.5em;
-	border-left: 0.5em solid #083E66;
-}
-.repositorios label{
-	display: block;
-	font-size: 2em;
-	font-weight: bold;
-}
-.repositorios a img{
-	display: block;
-	width: 5em;
-	height: 5em;
-}
-
 #circulo {
   width: 150px;
   background: white;
@@ -62,10 +42,39 @@
 	color: #3E77BF;
 }
 
-/*
---COLORES CELESTES--
-#6CA9EA
-#3E77BF
-#114C82
-#083E66
-*/
+
+/*---CUERPO Y ARTICULOS---*/
+.articulos{
+	width: 80%;
+	height: 20em;
+	padding: 0.5em;
+	margin:0.5em ;
+}
+.articulos article{
+	display: block;
+	background-color:#ffffff;
+	border-radius: 3em;
+	box-shadow: 1em 0.5em 1em #083E66;
+	margin: 1em;
+}
+.articulos article a{
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	margin-left:0.5em;
+}
+.articulos article a:hover{
+	background-color: #6CA9EA;
+}
+.articulos label{
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+}
+.articulos a img{
+	display: block;
+	width: 5em;
+	height: 5em;
+}
+
